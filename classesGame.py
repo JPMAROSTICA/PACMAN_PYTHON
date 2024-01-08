@@ -651,6 +651,7 @@ class Game:
         return playing
 
     def definirStatsEObjetosNecessariosAoIniciarUmaFase(self,trocarStatusDosGhostsParaAttacker,criarAppleNoCenario):
+        Settings.VELOCIDADE_GHOST = 30
         self.fase = Settings.FASE
         self.criarPacMan()
         self.criarGhostDeAcordoComFase()
