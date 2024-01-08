@@ -652,6 +652,7 @@ class Game:
 
     def definirStatsEObjetosNecessariosAoIniciarUmaFase(self,trocarStatusDosGhostsParaAttacker,criarAppleNoCenario):
         Settings.VELOCIDADE_GHOST = 30
+        self.contadorParaTrocarAVelocidadeDoGhost = 0
         self.fase = Settings.FASE
         self.criarPacMan()
         self.criarGhostDeAcordoComFase()
