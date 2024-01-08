@@ -29,7 +29,7 @@ class Settings:
     SCALE = (35,35)
     SCALE2 = (50,50)
 
-    FASE = 4
+    FASE = 1
     SCORE_ACUMULADO = 0
 
     #IMAGENS
